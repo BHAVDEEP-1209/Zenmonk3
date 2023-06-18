@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+
+.signup_div{
+    // border: 2px solid black;
+    height: 100vh;
+    display: flex;
+}
+
+// .signup_left_div{
+//     background-color: #cbdfe3;
+//     width: 45%;
+//     height: 100%;
+//     padding-top: 12%;
+//     border-top-right-radius: 25px;
+//     border-bottom-right-radius: 25px;
+// }
+
+// .signup_right_div{
+//     width: 55%;
+//     padding-top: 8%;
+// }
+
+.signup_left_div{
+    background-color: color-mix(in srgb,#391268 25%, #916BBF );
+    width: 45%;
+    height: 100%;
+    border-top-right-radius: 25px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.mobile_image{
+    width: 250px;
+    height: 500px;
+    border-radius: 40px;
+    border-color: color-mix(in srgb,#391268 25%, #916BBF );
+    position: absolute;
+    // top: 200px;
+    top: 30%;
+    // left: 180px;
+    left: 12%;
+}
+
+.signup_left_div .header{
+    display: flex;
+    align-items: center;
+}
+.signup_left_div .header h1{
+    margin-left: 30px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lock_image{
+    position: absolute;
+    left: 25%;
+}
+
+.like_image{
+    position: absolute;
+    // right: 20%;
+    top: 48%;
+    left: 5%;
+}
+
+.leaf_image{
+    position: absolute;
+    left: 26%;
+    top: 54%;
+}
+
+
+// sign up right(details) div
+
+.signup_right_div{
+    // padding-left: 12%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signup_right_div .header{
+    display: flex;
+    align-items: center;
+}
+
+.signup_right_div .header h1{
+    margin-left: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.or_section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.line{
+    width: 45%;
+    margin: 0 10px;
+}
+
+.google_section p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.google_section{
+    margin-bottom: 20%;
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+    position: relative;
+    left: 1rem;  
+}
+
+.header_info{
+    font-family: 'Montserrat', sans-serif;
+    color: "#D8D8D8";
+    font-weight: 500;
+}
+
+.img_upload_section{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.img_upload_section label{
+    margin-right: 20px;
+    color: color-mix(in srgb,#391268 25%, #916BBF );
+}
